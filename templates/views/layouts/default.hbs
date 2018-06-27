@@ -7,7 +7,9 @@
 				<title>E-Commerce Demo</title>
 				<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 				<link href="/styles/site.min.css" rel="stylesheet">
-
+                   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 				{{!-- This file provides the default styling for the KeystoneJS Content Editor
 					- only renders when user is logged in and admin--}}
 				{{{isAdminEditorCSS user}}}
@@ -41,9 +43,22 @@
 														{{/each}}
 												</ul>
 													<ul class="nav navbar-nav navbar-right">
-															<li>
-																	<a href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart (${{cartTotalPrice}})</a>
-															</li>
+
+                                                        {{# if user}}
+                                                            {{# if user.canAccessKeystone}}
+                                                                <li><a href=""></a></li>
+                                                                <li><a href="/keystone">Open Keystone</a></li>
+
+                                                            {{else}}
+                                                                <li><a href="/keystone/signin">Sign In</a></li>
+                                                            {{/if}}
+                                                            <li>
+                                                                <a href="/cart"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart (${{cartTotalPrice}})</a>
+                                                            </li>
+                                                            <li><a href="/keystone/signout">Sign Out</a></li>
+                                                        {{else}}
+                                                            <li><a href="/keystone/signin">Sign In</a></li>
+                                                        {{/if}}
 													</ul>
 											</div>
 									</div>
@@ -84,7 +99,7 @@
 				</div>
 				<div class="container">
 						<div id="footer">
-								<p>Site by Craig Schwartz</p>
+								<p>Site by Abdulla Thanseeh</p>
 						</div>
 				</div>
 				{{!--
