@@ -8,6 +8,8 @@ var Types = keystone.Field.Types;
 var Order = new keystone.List('Order', { nocreate: true, noedit: true });
 
 Order.add({
+    // customer: { type: Types.Relationship, ref: 'User', many: false, index: true,initial:true },
+    // products: { type: Types.Relationship, ref: 'Product', many: true, index: true , required: true,initial:true},
 	name: { type: Types.Name, required: true, initial: true },
 	email: { type: Types.Email, required: true, initial: true },
 	address: { type: String, required: true, initial: true },
