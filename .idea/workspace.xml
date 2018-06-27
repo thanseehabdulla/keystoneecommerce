@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f09d83-f6d2-49b3-b26c-1cd7fc5c79c6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/keystone.js" afterPath="$PROJECT_DIR$/keystone.js" />
-      <change beforePath="$PROJECT_DIR$/templates/views/index.hbs" afterPath="$PROJECT_DIR$/templates/views/index.hbs" />
       <change beforePath="$PROJECT_DIR$/templates/views/layouts/default.hbs" afterPath="$PROJECT_DIR$/templates/views/layouts/default.hbs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,8 +76,8 @@
       <file leaf-file-name="default.hbs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/views/layouts/default.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="57" column="109" lean-forward="false" selection-start-line="57" selection-start-column="109" selection-end-line="57" selection-end-column="109" />
+            <state relative-caret-position="273">
+              <caret line="48" column="64" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -269,12 +267,12 @@
       <option name="presentableId" value="Default" />
       <updated>1530079063496</updated>
       <workItem from="1530079064832" duration="888000" />
-      <workItem from="1530079994203" duration="2891000" />
+      <workItem from="1530079994203" duration="3002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3779000" />
+    <option name="totallyTimeSpent" value="3890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="732" extended-state="6" />
@@ -545,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/views/layouts/default.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="57" column="109" lean-forward="false" selection-start-line="57" selection-start-column="109" selection-end-line="57" selection-end-column="109" />
+        <state relative-caret-position="273">
+          <caret line="48" column="64" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
           <folding />
         </state>
       </provider>
